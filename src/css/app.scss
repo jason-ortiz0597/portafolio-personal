@@ -1,0 +1,29 @@
+// app global css in SCSS form
+@font-face {
+  font-family: HussarBold;
+  src: url(./fonts/HussarBoldWeb-bf92.woff);
+}
+
+.HussarBold {
+  font-family: HussarBold;
+}
+
+@font-face {
+  font-family: AnandaBlackPersonalUseRegular;
+  src: url(./fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+}
+
+.AnandaBlackPersonalUseRegular {
+  font-family: AnandaBlackPersonalUseRegular;
+}
+
+@font-face {
+  font-family: GoldleafBoldPersonalUseBold;
+  src: url(./fonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf);
+}
+
+.GoldleafBoldPersonalUseBold {
+  font-family: GoldleafBoldPersonalUseBold;
+  font-size: large;
+  font-style: normal;
+}
