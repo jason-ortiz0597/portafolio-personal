@@ -39,12 +39,10 @@ export default defineComponent({
   setup() {
     const hello = "Hello World";
     const ruta = ref("/cv/CV_JasonOrtiz.pdf");
-    const test = ref("test");
 
     return {
       hello,
       ruta,
-      test,
 
       downloadCV() {
         window.open(ruta.value);
