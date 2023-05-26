@@ -38,7 +38,7 @@ export default defineComponent({
   name: "IndexPage",
   setup() {
     const hello = "Hello World";
-    const ruta = ref("/cv/CV_JasonOrtiz.pdf");
+    const ruta = ref("/cv/CV_JASONORTIZ.pdf");
 
     return {
       hello,
